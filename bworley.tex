@@ -1,0 +1,363 @@
+% CV: Bradley Worley.
+\documentclass[letterpaper]{article}
+
+% Include required packages.
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Name (title) field.
+\def\name{Bradley Worley}
+
+% Set to \def\footerlink{} to remove this link from the footer
+\def\footerlink{http://geekysuavo.github.io/bworley.pdf}
+
+% The following metadata will show up in the PDF properties.
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {chemistry, physics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+% Set up page margins.
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=0.50in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+% Make enumerated list numbers bolded.
+\renewcommand{\labelenumi}{
+  \bf{\arabic{enumi}.}
+}
+
+% Start the document.
+\begin{document}
+
+% Place name at left
+{\huge \name}
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.unl.edu/}{University of Nebraska-Lincoln} \\
+  Department of Chemistry \\
+  Hamilton Hall \\
+  Lincoln, NE 68588-0304
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Office: & (402) 472-5316 \\
+    Cell: &  (512) 818-1854 \\
+    Email: & \href{mailto:geekysuavo@gmail.com}
+                     {\tt geekysuavo@gmail.com} \\
+    Homepage: & \href{http://geekysuavo.github.io/}
+                 {\tt http://geekysuavo.github.io/} \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Education}
+
+\begin{itemize}
+  \item Ph.D. Chemistry, University of Nebraska--Lincoln, 2015.
+  \begin{itemize}
+    \item \emph{Dissertation:} ``Chemometric and Bioinformatic Analyses
+      of Cellular Biochemistry''
+    \item \emph{Committee:}
+      R. Powers, E.~D. Dodds, D.~S. Hage,
+      G.~S. Harbison, S.~D. Scott
+  \end{itemize}
+  \item Summa Cum Laude, B.S. Biochemistry, Texas Tech University, 2010.
+\end{itemize}
+
+
+\section*{Interests}
+
+\begin{itemize}
+\item{
+  Developing bioanalytical, chemometric and bioinformatic techniques and
+  tools to better understand cellular biochemistry and protein folding.
+}
+\item{
+  Mastering techniques of software architecture and electronics design.
+}
+\item{
+  Swimming, cycling, and folk songwriting.
+}
+\end{itemize}
+
+
+\section*{Software Experience}
+
+\begin{itemize}
+\item{
+  Expert in implementation of multivariate statistical algorithms,
+  especially latent-variable methods (PCA, LDA, PLS).
+}
+\item{
+  Experience in projects spanning from systems-level software design to
+  register-level firmware programming.
+}
+\item{
+  Expert in C, Regular Expressions and GNU/Linux shell scripting and
+  system administration.
+}
+\item{
+  Highly proficient in Python, Perl, PHP, Javascript and HTML/CSS.
+}
+\end{itemize}
+
+
+\section*{Research Experience}
+
+\begin{itemize}
+\setlength{\itemsep}{16pt}
+\item{
+  {\it NMR Facility Teaching Assistant}
+  \hfill 2012--2015. \\
+  Department of Chemistry, University of Nebraska-Lincoln \\
+  Advisor: Dr. Martha Morton
+  \begin{enumerate*}
+    \item Maintenance of five Nuclear Magnetic Resonance (NMR) spectrometers,
+      including $N_2$ and $He$ fills, software and hardware troubleshooting.
+    \item Training of researchers new to NMR spectroscopy.
+  \end{enumerate*}
+}
+
+\pagebreak % FIXME -- this may change in the future!!!
+\item{
+  {\it Graduate Research Assistant}
+  \hfill 2010--2015. \\
+  Department of Chemistry, University of Nebraska-Lincoln \\
+  Advisor: Dr. Robert Powers
+  \begin{enumerate*}
+    \item Development of an end-to-end software suite for chemometric data
+      handling in $^1$H NMR metabolic fingerprinting studies (MVAPACK).
+    \item Development of a comprehensive database solution for the Functional
+      Annotation Screening Technology by NMR (FAST-NMR).
+    \item Analysis of Pancreatic cancer-associated proteomics and genomics
+      datasets for the identification of novel drug targets.
+    \item System administration of all Windows and Linux computing resources
+      in the group.
+  \end{enumerate*}
+}
+
+\item{
+  {\it Undergraduate Research Assistant}
+  \hfill 2007--2009. \\
+  Department of Chemistry and Biochemistry, Texas Tech University \\
+  {\setlength{\topmargin}{0pt} Advisor: Dr. Edward Quitevis}
+  \begin{enumerate*}
+    \item Rotational dynamics of room-temperature ionic liquids at and near
+      the glass-transition temperature by Fluorescence Recovery After
+      Photobleaching (FRAP).
+  \end{enumerate*}
+}
+\end{itemize}
+
+
+\section*{Professional Experience}
+
+\subsection*{Research Mentorship}
+
+\begin{itemize}
+\item{
+  {\it Undergraduate Research Mentor}
+  \hfill 2011--2013. \\
+  Department of Chemistry, University of Nebraska-Lincoln
+  \begin{enumerate*}
+    \item Responsible for supervising an undergraduate student in NMR
+      protein-ligand binding studies using FAST-NMR.
+  \end{enumerate*}
+}
+\end{itemize}
+
+\subsection*{Scientific Outreach}
+
+\begin{itemize}
+\item Phi Labmda Upsilon, Rho Chapter Secretary \hfill 2012.
+\item UNL Chemistry Day Volunteer \hfill 2010--2015.
+\end{itemize}
+
+\subsection*{Awards and Scholarships}
+
+\begin{itemize}
+\item Pasteur Foundation Postdoctoral Fellow \hfill 2015.
+\item Department of Education GAANN Fellow \hfill 2010--2012.
+\end{itemize}
+
+
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item M. D. Shortridge, J. Catazaro$^\dagger$, J. Periago$^\dagger$,
+ \textbf{B. Worley}$^\dagger$, A. Kirchner, R. Powers and M. A. Griep,
+ Structure, conformations and dynamics of the helicase interaction
+ domain of DnaG primase for {\it Staphylococcus aureus},
+ {\it Biochemistry}, In preparation.
+\end{itemize}
+
+\begin{itemize}
+\item J. L. Stark, \textbf{B. Worley} and R. Powers,
+ Using Chemical Shift Perturbations to Guide and Filter Docking Results
+ with CSP-Consensus and AutoDockFilter 2, 2015,
+ {\it BMC Research Notes}, In preparation.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley},
+ Subrandom Methods for Multidimensional Nonuniform Sampling, 2015,
+ {\it Journal of Magnetic Resonance}, In preparation.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ PCA as a Predictor of OPLS-DA Model Reliability, 2016,
+ {\it Metabolomics}, Under review.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley},
+ Convex Accelerated Maximum Entropy Reconstruction, 2016,
+ {\it Journal of Magnetic Resonance}, In press.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ A Sequential Algorithm for Multiblock Orthogonal
+ Projections to Latent Structures, 2015,
+ {\it Chemometrics and Intelligent Laboratory Systems}, 149: 33--39.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ Deterministic Multidimensional Nonuniform Gap Sampling, 2015,
+ {\it Journal of Magnetic Resonance}, 261: 19--26.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley}, N. J. Sisco and R. Powers,
+ Statistical Removal of Background Signals from High-throughput $^1$H NMR
+ Line-broadening Ligand-affinity Screens, 2015,
+ {\it Journal of Biomolecular NMR}, 63(1): 53--58.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ Generalized Adaptive Intelligent Binning of Multiway Data, 2015,
+ {\it Chemometrics and Intelligent Laboratory Systems}, 146: 42--46.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley}$^\dagger$, D. D. Marshall$^\dagger$,
+ S. Lei$^\dagger$, Y. Huang, A. Garcia-Garcia, R. Franco,
+ E. D. Dodds and R. Powers, Combining DI-ESI-MS and NMR Datasets for
+ Metabolic Profiling, 2014,
+ {\it Metabolomics}, 11: 391--402.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ MVAPACK: A Complete Data Handling Package for NMR Metabolomics, 2014,
+ {\it ACS Chemical Biology}, 9(5): 1138--1144.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ Simultaneous Phase and Scatter Correction for NMR Datasets, 2013,
+ {\it Chemometrics and Intelligent Laboratory Systems}, 131(2014): 1--6.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley} and R. Powers,
+ Multivariate Analysis in Metabolomics, 2013,
+ {\it Current Metabolomics}, 1(1): 92--107.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley}, S. Halouska and R. Powers,
+ Utilities for Quantifying Separation in PCA/PLS-DA Scores Plots, 2012,
+ {\it Analytical Biochemistry}, 433(2): 102--104.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{B. Worley}, G. Richard, G. S. Harbison and R. Powers,
+  $^{13}$C NMR Reveals no Evidence of $n\rightarrow\pi^*$ Interactions
+  in Proteins, 2012, {\it PLoS ONE}, 7(8): 166--171.
+\end{itemize}
+
+\subsection*{Research Presentations}
+
+\begin{itemize}
+\item Deterministic Multidimensional Nonuniform Gap Sampling,
+  GRASP NMR, 2015.
+\end{itemize}
+
+\begin{itemize}
+\item MVAPACK: Waders for your Big Data swamp,
+  UNL Department of Biochemistry, 2015.
+\end{itemize}
+
+\begin{itemize}
+\item MVAPACK: The Multivariate Statistics Toolbox for Spectroscopists,
+  UNL Department of Statistics, 2015.
+\end{itemize}
+
+\begin{itemize}
+\item MVAPACK: The definitive toolbox for NMR chemometrics, ICMRBS, 2014.
+\end{itemize}
+
+\begin{itemize}
+\item Simultaneous Phase and Scatter Correction of NMR Datasets, ENC, 2013.
+\end{itemize}
+
+\begin{itemize}
+\item Carbonyl $^{13}$C Chemical Shifts, $n\rightarrow\pi^*$ interactions,
+  and Proteins, GRASP NMR, 2010.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+% End the document.
+\end{document}
+
